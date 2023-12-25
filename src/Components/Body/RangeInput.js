@@ -3,7 +3,7 @@ const RangeInput = ({ min, max, step, label, type, id, value, onChange }) => {
     <div className="w-full">
       <div className="w-fit">
         <h2 className="mb-2 text-sm font-medium text-gray-500">{label}</h2>
-        <p className="w-fit mb-2 text-lg font-bold text-white">$ {value}</p>
+        <p className="w-fit mb-2 text-lg font-bold">$ {value}</p>
       </div>
       <div className="w-full" data-tip={value}>
         <input
@@ -26,7 +26,7 @@ const RangeInput = ({ min, max, step, label, type, id, value, onChange }) => {
     <div className="w-full">
       <div className="w-fit">
         <h2 className="mb-2 text-sm font-medium text-gray-500">{label}</h2>
-        <p className="w-fit mb-2 text-lg font-bold text-white">% {value}</p>
+        <p className="w-fit mb-2 text-lg font-bold ">% {value}</p>
       </div>
       <div className="w-full " data-tip={value}>
         <input
